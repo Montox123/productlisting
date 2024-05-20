@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .value {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .textbox {
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+  }
+  
+  .asyncButton {
+    margin: 5px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
