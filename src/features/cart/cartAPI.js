@@ -5,7 +5,7 @@ export function fetchCount(amount = 1) {
   }
   
   export async function fetchCountAndData() {
-    const response = await fetch('http://localhost:8080');
+    const response = await fetch('http://localhost:8000');
     const data = await response.json();
     return { data };
   }
